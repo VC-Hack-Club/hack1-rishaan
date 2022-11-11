@@ -1,23 +1,21 @@
+import { Handlers, PageProps } from "$fresh/server.ts";
 import { Head } from "$fresh/runtime.ts";
-import Counter from "../islands/Counter.tsx";
+import { MapPinIcon } from "@heroicons/solid";
+import Map from "../islands/Map.tsx";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Fresh App</title>
+        <title>hack1-rishaan</title>
       </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-          file, and refresh.
-        </p>
-        <Counter start={3} />
+      <div class="p-5 text-black w-full h-screen bg-gray-300">
+        <div class="flex flex-col items-center h-full w-full items-center justify-center gap-y-3">
+          <div class="text-3xl font-bold">
+            Find Nearby Shelters
+          </div>
+          <Map />
+        </div>
       </div>
     </>
   );
