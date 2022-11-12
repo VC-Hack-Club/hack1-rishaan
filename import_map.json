@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "$fresh/": "https://deno.land/x/fresh@1.1.2/",
+    "preact": "https://esm.sh/preact@10.11.0",
+    "preact/": "https://esm.sh/preact@10.11.0/",
+    "preact-render-to-string": "https://esm.sh/*preact-render-to-string@5.2.4",
+    "@preact/signals": "https://esm.sh/*@preact/signals@1.0.3",
+    "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.0.1",
+    "react-hook-geolocation": "https://esm.sh/react-hook-geolocation@1.1.0?alias=react:preact/compat&external=preact/compat",
+    "@googlemaps/google-maps-services-js": "https://esm.sh/@googlemaps/google-maps-services-js@3.3.16",
+    "us-zips": "https://esm.sh/us-zips@2022.9.1",
+    "geo2zip": "https://esm.sh/geo2zip@4.0.1",
+    "twind": "https://esm.sh/twind@0.16.17",
+    "twind/": "https://esm.sh/twind@0.16.17/",
+    "@heroicons/solid": "https://esm.sh/@heroicons/react@2.0.12/24/solid?alias=react:preact/compat&external=preact/compat",
+    "@heroicons/outline": "https://esm.sh/@heroicons/react@2.0.12/24/outline?alias=react:preact/compat&external=preact/compat",
+    "@heroicons/mini": "https://esm.sh/@heroicons/react@2.0.12/20/solid?alias=react:preact/compat&external=preact/compat"
+  }
+}
